@@ -1,0 +1,16 @@
+# 1. Definição das listas (corrigidas e sem duplicidade)
+itens_de_comida_do_cardapio = ['pizza', 'bolo', 'salgado', 'hamburguer']
+itens_de_bebida_do_cardapio = ['suco', 'refrigerante', 'água', 'café']
+
+# 2. Junção das duas listas em um cardápio completo
+cardapio_completo = itens_de_comida_do_cardapio + itens_de_bebida_do_cardapio
+
+# 3. Exibição dos resultados no terminal
+print("--- Cardápio Completo ---")
+print(cardapio_completo)
+
+print("\n--- Apenas Comidas ---")
+print(itens_de_comida_do_cardapio)
+
+print("\n--- Apenas Bebidas ---")
+print(itens_de_bebida_do_cardapio)
